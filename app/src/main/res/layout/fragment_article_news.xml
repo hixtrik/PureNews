@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="15dp"
+        tools:context=".ui.ArticleNewsFragment">
+
+        <TextView
+            android:id="@+id/tvArticleNewsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kanada_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvArticleNewsArticle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/kanada_article" />
+
+    </LinearLayout>
+</layout>
