@@ -28,7 +28,7 @@ class MainFragment : Fragment() {
         repeat(25) {
             val frameLayout = FrameLayout(requireContext())
             frameLayout.id = View.generateViewId()
-            frameLayout.background = resources.getDrawable(R.drawable.border, null)
+            frameLayout.background = resources.getDrawable(R.color.cardview_light_background, null)
             frameLayout.setPadding(15, 15, 15, 15)
             val params = FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.WRAP_CONTENT,
